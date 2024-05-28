@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Judith Portafolio</title>
+   
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+
+    <nav>
+        <h1>Judith Villalvazo</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Seccion Hero (parte principal de la pagina) -->
+
+    <section class="hero" id="about">
+        <img src="/assets/images/portada.jpeg" alt="imagen" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About me</h2>
+            <p class="bio-text">
+                Mi nombre es Judith Villalvazo, actualmente estoy estudiando ingeniería informática, me gusta la tecnología y aprender cosas nuevas.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Sobre mi -->
+
+        <section class="more-about">
+            <h2>More about me</h2>
+            <p>Acabo de terminar el quinto semestre de mi carrera en la Universidad de Guadalajara.</p>
+            <p>Tengo un perrito, su nombre es Manzano y disfruto pasar tiempo con el.</p>
+            <p>Actualmene me encuentro reforzando conocimientos que tengan que ver con mi carrera, esto lo hago investigando de manera autodidacta o buscando cursos relacionados.</p>
+        </section>
+
+    <!-- Seccion Habilidades -->
+
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-github-50.svg" alt="" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+        </section>
+
+    <!-- Seccion Proyectos -->
+
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Some of my Recent Projects</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img src="assets/images/phaser.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Projecto 1</h3>
+                    <p class="project-details">Juego creado con ayuda del framework Phaser</p>
+                    <a href="https://judith-vm.github.io/JuegoPhaser3/" target="_blank" class="project-link">Pruebalo!</a><br>
+                    <a href="https://github.com/judith-vm/JuegoPhaser3" target="_blank" class="project-link">Repositorio</a>   
+                </div>
+
+                <div class="project-container project-card" >
+                    <img src="assets/images/vue.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Projecto 2</h3>
+                    <p class="project-details">Cuestionario sobre cultura general realizado con el framework Vue.js</p>
+                    <a href="https://whimsical-brioche-6f9120.netlify.app/" target="_blank" class="project-link">Pruebalo!</a><br>
+                    <a href="https://github.com/judith-vm/ProVuejs" target="_blank" class="project-link">Repositorio</a>   
+                </div>
+
+                <div class="project-container project-card" >
+                    <img src="assets/images/disp.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Projecto 3</h3>
+                    <p class="project-details">Proyecto realizado en equipo usando Arduino, IA, HTML, CSS y JavaScript</p><br>
+                    <a href="https://github.com/judith-vm/Dispensador-IoT-IA" target="_blank" class="project-link">Repositorio</a>    
+                </div>
+                
+            </div>
+        </section>
+
+    <!-- Seccion Contacto -->
+
+    <!-- Seccion Redes Sociales -->
+
+    <div class="socials">
+        <a href="https://github.com/judith-vm" target="_blank"><img src="/assets/icons/GitHub.gif" alt="Icono Git" loading="lazy" class="socicon"></a>
+        <a href="https://www.linkedin.com/in/judithvillalvazo/" target="_blank"><img src="/assets/icons/Linkedin.gif" alt="Icono Linkedin" loading="lazy" class="socicon"></a>
+        <a href="#" target="_blank"><img src="/assets/icons/Instagram.gif" alt="Icono Instagram" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!-- Scroll botom -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="/assets/icons/boton.png" alt="button" class="socicon up-arrow">
+    </i>
+    
+    <!-- Seccion Footer -->
+    <footer>
+        <p>Built with &#x2661; by <a href="">Judith Villalvazo</a> </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
